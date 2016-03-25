@@ -30,7 +30,7 @@ artifacts {
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: "http://129.196.197.60:8081/artifactory/libs-release-local/")
+            repository(url: "http://129.196.197.60:8081/artifactory/java-libs/")
         }
     }
 }
